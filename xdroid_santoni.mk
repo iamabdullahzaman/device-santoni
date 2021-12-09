@@ -23,12 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
 # Inherit some common AOSPA stuff.
-$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := pa_santoni
+PRODUCT_NAME := xdroid_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_BOARD_PLATFORM := msm8937
